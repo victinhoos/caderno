@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+body{
+    font: 18px 'inter', 'sans';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header, nav{
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+header h1, nav h1{
+     font: italic bolder 40px 'oswald', 'sans';
+     margin: 0%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+
+}
+
+header a, nav a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.links a:hover{
+  color: rgb(139, 139, 139);
+  transition: 0.75s;
+} 
+
+nav h2{
+    margin: 0%;
+    font: italic bolder 20px 'oswald', 'sans';
+}
+
+p{
+    text-align: left;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
+    height: 200px;
+    background-color: #151515;
+    width: 100%;
+}
+footer p {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px; 
+    color: white;      
+    padding: 25px;    
+}

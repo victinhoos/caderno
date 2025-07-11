@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap');
+
+body{
+    font: 18px 'inter', 'sans';
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header, nav{
+    text-align: center;
+    color: rgb(24, 24, 24);
+}
+header h1, nav h1{
+     font: italic bolder 40px 'oswald', 'sans';
+     margin: 0%;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+
+}
+
+header a, nav a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+    display: grid;
+    margin: 10px;
+    align-items: center;
+    
+}
+
+.links a:hover{
+  color: rgb(139, 139, 139);
+  transition: 0.75s;
+} 
+
+nav h2{
+    margin: 0%;
+    font: italic bolder 20px 'oswald', 'sans';
+}
+
+.linhas img{
+  padding-left: 20px;
+}
+
+.coluna h1{
+    padding-left: 15px;
+    letter-spacing: 10px;
+}
+
+.linhas h2{
+    letter-spacing: 5px;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+.linhas a{
+    text-decoration: none;
+    color: rgb(24, 24, 24);
+}
+.linhas p{
+    padding-left: 20px;
+    max-width: 1000px;  
+    word-wrap: break-word;  
+}
+
+.linhas tr{
+    margin-bottom: 100px;
+}
+.linhas td{
+    padding-bottom: 25px;
+}
+
+.linhas tr:hover{
+    background-color: #8585851c;
+}
+
+footer{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
+    height: 200px;
+    background-color: #151515;
+    width: 100%;
+}
+footer p {
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 20px; 
+    color: white;      
+    padding: 25px;    
+}
